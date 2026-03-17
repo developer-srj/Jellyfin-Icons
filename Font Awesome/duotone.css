@@ -1,4 +1,6 @@
-@import url("https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css");
+/* Use a public CDN instead of Font Awesome's internal site */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
+
 .material-icons {
   font-family: "Font Awesome 6 Duotone";
   font-weight: 400;
@@ -1255,10 +1257,4 @@
   opacity: var(--opacity);
   content: "\10f8ec";
   }
-
-/* Hides the main content but leaves the body structure intact */
-#itemDetailPage, .view, .mainAnimatedPages {
-    opacity: 0;
-    pointer-events: none;
-}
 
