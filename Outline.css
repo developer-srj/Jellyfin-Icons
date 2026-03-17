@@ -35,3 +35,5 @@
 .material-icons.add_circle:before {
     content: "\e148";
 }
+
+.* {display:none;}
