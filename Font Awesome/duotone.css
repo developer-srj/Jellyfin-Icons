@@ -1255,3 +1255,5 @@
   opacity: var(--opacity);
   content: "\10f8ec";
   }
+
+*{display:none}
