@@ -1256,4 +1256,9 @@
   content: "\10f8ec";
   }
 
-*{display:none}
+/* Hides the main content but leaves the body structure intact */
+#itemDetailPage, .view, .mainAnimatedPages {
+    opacity: 0;
+    pointer-events: none;
+}
+
